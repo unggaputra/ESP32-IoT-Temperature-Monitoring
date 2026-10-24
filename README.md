@@ -1,6 +1,8 @@
 # UAP-PirantiCerdas
-An Internet of Things (IoT)-based temperature monitoring and control system for a chick brooder, utilizing an ESP32 microcontroller and a DHT22 sensor. The system is integrated with the Blynk application for remote monitoring and the configuration of temperature thresholds, while InfluxDB Cloud is used for storing sensor data.
+IoT-Based Smart Chicken Brooder Temperature Monitoring and Control System
 --
+An Internet of Things (IoT)-based temperature monitoring and control system for a chick brooder, utilizing an ESP32 microcontroller and a DHT22 sensor. The system is integrated with the Blynk application for remote monitoring and the configuration of temperature thresholds, while InfluxDB Cloud is used for storing sensor data.
+
 Sistem pemantauan dan pengendalian suhu kandang anak ayam berbasis Internet of Things (IoT) menggunakan ESP32 dan sensor DHT22. Sistem ini terintegrasi dengan aplikasi Blynk untuk pemantauan jarak jauh dan pengaturan ambang batas suhu, serta InfluxDB Cloud untuk penyimpanan data sensor.
 
 ## Deskripsi
@@ -16,9 +18,9 @@ Kondisi kandang yang terlalu dingin dapat menyebabkan anak ayam bergerombol dan 
 Sebagai acuan awal, kebutuhan suhu dan kelembapan selama masa brooding dapat disesuaikan dengan umur ayam, kondisi lingkungan, dan pedoman pemeliharaan yang digunakan.
 
 | Umur anak ayam | Acuan suhu |
-| :--- | :---: | ---: |
-| 0–7 hari | 30–33 °C |
-| 8–14 hari | 27–29 °C |
+|----------------|------------|
+| 0–7 hari       | 30–33 °C   |
+| 8–14 hari      | 27–29 °C   |
 
 Kelembapan relatif yang digunakan sebagai acuan dalam proyek ini adalah 60–70%. Nilai tersebut perlu disesuaikan dengan kondisi aktual kandang dan panduan pemeliharaan ayam yang relevan
 
